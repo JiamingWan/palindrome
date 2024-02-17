@@ -1,0 +1,41 @@
+/*
+ * Write the Palindrome program inside the main method
+ * according to the assignment description.
+ * 
+ * To compile:
+ *        javac Palindrome.java
+ * To execute:
+ *        java Palindrome 5 4 6 6 4 5
+ * 
+ * DO NOT change the class name
+ * DO NOT use System.exit()
+ * DO NOT change add import statements
+ * DO NOT add project statement
+ * 
+ */
+
+public class Palindrome {
+    public static void main(String[] args) {
+       
+        int a=Integer.parseInt(args[0]);
+        int b=Integer.parseInt(args[1]);
+        int c=Integer.parseInt(args[2]);
+        int d=Integer.parseInt(args[3]);
+        int e=Integer.parseInt(args[4]);
+        int f=Integer.parseInt(args[5]);
+        
+        
+        boolean g=a==f;
+        boolean h=b==e;
+        boolean i=c==d;
+       
+       boolean output=(g&&h&&i);
+       System.out.println(output);
+
+
+
+
+
+        // WRITE YOUR CODE HERE
+    }
+}
